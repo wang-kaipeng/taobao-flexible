@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="maximum-dpr=2" name="flexible" />
+    <meta content="modeName=750-12" name="grid" />
+    <script src="build/flexible_css.debug.js"></script>
+    <script src="build/flexible.debug.js"></script>
+    <title>lib.flexible - 移动端自适应方案</title>
+</head>
+<style>
+    .item-section {
+        width: 100%;
+        height: auto;
+        background: #dd807c;
+    }
+    
+    .item-section_header {
+        width: 100%;
+    }
+    
+    .item-section_header>img {
+        width: 100%;
+    }
+    
+    .item-section ul {
+        width: 96%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .item-section ul>li {
+        width: 100%;
+        height: 1.8rem;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0.17rem 0 0.13rem 0;
+        background: #fff;
+        margin-top: 0.01rem;
+    }
+    
+    .figure {
+        display: inline-block;
+        width: 23%;
+        height: 1.75rem;
+        float: left;
+    }
+    
+    .figure img {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .figcaption {
+        width: 75%;
+        height: auto;
+        float: left;
+        margin-left: 0.15rem;
+    }
+    
+    .flag-title>a {
+        width: 100%;
+        height: 0.25rem;
+        font-size: 24px;
+        line-height: 0.25rem;
+        color: #000;
+    }
+    
+    .flag-price {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin-top: 0.05rem;
+    }
+    
+    .flag-price>span {
+        display: block;
+        width: 1.2rem;
+        height: 0.35rem;
+        line-height: 0.35rem;
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        background: #f32a4c;
+        float: left;
+        border-radius: 0.02rem;
+        -webkit-border-radius: 0.02rem;
+        -moz-border-radius: 0.02rem;
+        -ms-border-radius: 0.02rem;
+        -o-border-radius: 0.02rem;
+    }
+    
+    .flag-price>strong {
+        display: block;
+        width: 1.6rem;
+        height: 0.32rem;
+        line-height: 0.32rem;
+        font-size: 26px;
+        color: #f32a4c;
+        float: left;
+        margin-left: 0.054rem
+    }
+    
+    .flag-price>small {
+        display: block;
+        width: 2rem;
+        height: 0.32rem;
+        line-height: 0.32rem;
+        font-size: 22px;
+        color: #f32a4c;
+        float: left;
+        margin-left: 0.054rem
+    }
+    
+    .flag-type {
+        width: 3rem;
+        height: 0.38rem;
+        line-height: 0.38rem;
+        font-size: 24px;
+        color: #ff6a30;
+        margin-top: 0.050rem
+    }
+    
+    .flag-btn {
+        display: block;
+        width: 2rem;
+        height: 0.48rem;
+        line-height: 0.48rem;
+        font-size: 26px;
+        text-align: center;
+        color: #fff;
+        float: right;
+        margin-right: 0.06rem;
+        background: #f5294c;
+        border-radius: 0.02rem;
+        -webkit-border-radius: 0.02rem;
+        -moz-border-radius: 0.02rem;
+        -ms-border-radius: 0.02rem;
+        -o-border-radius: 0.02rem;
+    }
+</style>
+
+<body>
+    <div class="item-section" data-repeat="sections">
+        <div class="item-section_header">
+            <img src="images/aa.jpg" alt="">
+        </div>
+        <ul>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+            <li data-repeat="items" class="flag">
+                <a class="figure" href="#">
+                    <img src="images/01.jpg" alt="">
+                </a>
+                <div class="figcaption">
+                    <div class="flag-title">
+                        <a href="#" title="">s1年式灰色长袖连体衣包脚爬服</a>
+                    </div>
+                    <div class="flag-price">
+                        <span>双11价</span><strong>￥299.06</strong><small>(满400减100)</small>
+                    </div>
+                    <div class="flag-type">1小时内热卖5885件</div>
+                    <a class="flag-btn" href="#">马上抢！</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
